@@ -1,6 +1,5 @@
 import streamlit as st
-# 先將 stripe 相關程式碼註解，確保程式可以正常運行
-# import stripe
+import stripe  # 取消註解
 from datetime import datetime, timedelta
 import json
 
